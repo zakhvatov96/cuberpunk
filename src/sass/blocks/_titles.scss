@@ -5,4 +5,7 @@
   color: var(--second-color);
   line-height: normal;
   margin-bottom: 0;
+  &_white {
+    color: #fff;
+  }
 }
