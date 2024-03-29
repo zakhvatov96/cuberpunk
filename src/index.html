@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cyberpunk</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -26,5 +30,36 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="promo">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div
+              class="swiper-slide"
+              style="background: url(img/main_bg.jpg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background: url(img/second_bg.jpg)"
+            ></div>
+            <div
+              class="swiper-slide"
+              style="background: url(img/third_bg.jpg)"
+            ></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="promo__more corner-block">
+            <h2 class="title promo__title">Доступно на всех платформах</h2>
+            <button class="btn btn_big promo__btn">Узнать больше</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

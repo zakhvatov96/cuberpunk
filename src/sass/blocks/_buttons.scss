@@ -1,0 +1,19 @@
+.btn {
+  width: 194px;
+  height: 59px;
+  background-color: var(--second-color);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--main-color);
+  &_big {
+    width: 272px;
+    height: 78px;
+    font-size: 24px;
+    text-align: center;
+  }
+  &_yellow {
+    width: 192px;
+    background-color: var(--main-color);
+    color: var(--second-color);
+  }
+}

@@ -1,0 +1,20 @@
+.promo {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  .container {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &__more {
+    padding: 70px;
+    width: 624px;
+    height: 369px;
+    background-color: var(--main-color);
+  }
+  &__btn {
+    margin-top: 25px;
+  }
+}
