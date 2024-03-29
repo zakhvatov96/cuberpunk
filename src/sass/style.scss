@@ -1,0 +1,35 @@
+@import "libs/bootstrap-reboot.min";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import "blocks/header";
+
+:root {
+  --main-color: #f8f200;
+  --second-color: #000000;
+}
+
+@font-face {
+  font-family: "Archangelsk";
+  src: url("../fonts/Archangelsk.woff2") format("woff2"),
+    url("../fonts/Archangelsk.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  // font-family: "Archangelsk", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.corner-block {
+  overflow: hidden;
+  clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+}
