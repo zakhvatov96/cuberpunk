@@ -1,0 +1,30 @@
+.nightcity {
+  padding-top: 70px;
+  &__text {
+    margin-top: 25px;
+    width: 952px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 189%;
+    color: #777;
+    span {
+      font-weight: 700;
+      color: #52bedc;
+    }
+  }
+  &__wrapper {
+    margin-top: 70px;
+    display: grid;
+    grid-template: repeat(2, 196px) / 460px 788px;
+    gap: 32px;
+  }
+  &__img {
+    img {
+      width: 100%;
+    }
+    &_big {
+      grid-row: 1 / 3;
+      grid-column: 2 / 3;
+    }
+  }
+}
