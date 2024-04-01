@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 24px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+  }
+  &__logos {
+    align-self: start;
+    img {
+      margin-right: 32px;
+    }
+  }
+  &__menu {
+    align-self: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+      margin-right: 32px;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+  }
+  &__subfooter {
+    width: 100%;
+    background-color: var(--second-color);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    &-text {
+      margin: 0 auto;
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      color: #fff;
+    }
+  }
+}

@@ -39,15 +39,21 @@
             <!-- Slides -->
             <div
               class="swiper-slide"
-              style="background: url(img/main_bg.jpg)"
+              style="
+                background: url(img/main_bg.jpg) center center/cover no-repeat;
+              "
             ></div>
             <div
               class="swiper-slide"
-              style="background: url(img/second_bg.jpg)"
+              style="
+                background: url(img/second_bg.jpg) center center/cover no-repeat;
+              "
             ></div>
             <div
               class="swiper-slide"
-              style="background: url(img/third_bg.jpg)"
+              style="
+                background: url(img/third_bg.jpg) center center/cover no-repeat;
+              "
             ></div>
           </div>
         </div>
@@ -163,7 +169,57 @@
           </div>
         </div>
       </section>
+      <section class="buy">
+        <div class="buy__wrapper">
+          <div class="buy__img">
+            <img src="img/cyberpunk_cd.jpg" alt="buy" />
+          </div>
+          <div class="buy__text">
+            <h2 class="title title_white buy__title">
+              Купить игру Cyberpunk 2077
+            </h2>
+            <h3 class="buy__subtitle">В комплект входит:</h3>
+            <ul class="buy__set">
+              <li style="background-image: url(icons/disk.svg)">
+                Футляр с игровыми дисками
+              </li>
+              <li style="background-image: url(icons/window.svg)">
+                Футляр с кодом для загрузки игры и дисками (pc)
+              </li>
+              <li style="background-image: url(icons/gallery.svg)">
+                Справочник с информацией об игровом мире
+              </li>
+            </ul>
+            <h3 class="buy__subtitle">Выберите платформу:</h3>
+            <div class="buy__console">
+              <a href="#"><img src="icons/pc.svg" alt="pc" /></a>
+              <a href="#"><img src="icons/xbox.svg" alt="xbox" /></a>
+              <a href="#"><img src="icons/stadia.svg" alt="stadia" /></a>
+              <a href="#"><img src="icons/playstation.svg" alt="ps" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logos">
+            <a href="#"><img src="icons/main_logo.svg" alt="main" /></a>
+            <a href="#"><img src="icons/cd_project.svg" alt="cdp" /></a>
+          </div>
+          <ul class="footer__menu">
+            <li><a href="#">Лицензия</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__subfooter">
+        <div class="footer__subfooter-text">
+          CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
