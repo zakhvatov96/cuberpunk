@@ -10,8 +10,8 @@
   }
   &__more {
     padding: 70px;
-    width: 624px;
-    height: 369px;
+    max-width: 624px;
+
     background-color: var(--main-color);
   }
   &__btn {
