@@ -32,11 +32,11 @@
     </header>
     <main>
       <section class="promo">
-        <!-- Slider main container -->
+
         <div class="swiper">
-          <!-- Additional required wrapper -->
+
           <div class="swiper-wrapper">
-            <!-- Slides -->
+
             <div
               class="swiper-slide"
               style="
@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <!-- <section class="play">
+    <section class="play">
       <div class="container">
         <h2 class="title title_white play__title">Играй и выигрывай!</h2>
         <div class="play__text">
@@ -126,12 +126,23 @@
             >
           </form>
           <div class="play__img">
-            <img src="img/console.png" alt="console" />
+            <picture>
+              <source
+                srcset="img/console-mobile.png"
+                media="(max-width: 576px)"
+              />
+              <source srcset="img/console.png" media="(max-width: 992px)" />
+              <source
+                srcset="img/console-tablet.png"
+                media="(max-width: 1290px)"
+              />
+              <img src="img/console.png" alt="console" />
+            </picture>
           </div>
         </div>
       </div>
-    </section> -->
-      <!-- <section class="hp">
+    </section>
+    <!-- <section class="hp">
       <div class="container">
         <div class="hp__wrapper">
           <div class="hp__img">
@@ -168,7 +179,7 @@
         </div>
       </div>
     </section> -->
-      <!-- <section class="buy">
+    <!-- <section class="buy">
       <div class="buy__wrapper">
         <div class="buy__img">
           <img src="img/cyberpunk_cd.jpg" alt="buy" />
@@ -198,7 +209,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     </main>
     <!-- <footer class="footer">
     <div class="container">
