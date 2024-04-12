@@ -17,8 +17,21 @@
     margin-top: 26px;
     display: flex;
     justify-content: center;
-    img {
+
+    &-hp {
+      width: 80px;
+      height: 80px;
       margin-right: 25px;
+    }
+    &-cross {
+      width: 92px;
+      height: 80px;
+      margin-right: 25px;
+    }
+    &-logo {
+      width: 296px;
+      height: 80px;
+      margin-right: 0;
     }
   }
   &__descr {

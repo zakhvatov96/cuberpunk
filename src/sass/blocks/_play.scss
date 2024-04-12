@@ -58,8 +58,33 @@
     justify-content: space-between;
   }
   &__form {
+    position: relative;
     height: 383px;
     align-self: end;
+
+    #name-error {
+      color: var(--main-color);
+      position: absolute;
+      top: 43px;
+    }
+    #email-error {
+      position: absolute;
+      color: var(--main-color);
+      top: 118px;
+    }
+    #form_img-error {
+      position: absolute;
+      color: var(--main-color);
+      top: 121px;
+      left: 0;
+    }
+    #checkbox-error {
+      position: absolute;
+      color: var(--main-color);
+      bottom: -60px;
+      left: 0;
+      font-size: 12px;
+    }
   }
   &__input {
     display: block;
