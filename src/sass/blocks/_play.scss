@@ -105,9 +105,14 @@
     height: 120px;
     border: 1px dashed #777;
     padding: 39px 120px 39px 137px;
+    cursor: pointer;
     input {
       position: absolute;
       opacity: 0;
+      cursor: pointer;
+    }
+    span {
+      cursor: pointer;
     }
     &-text {
       display: inline-block;
